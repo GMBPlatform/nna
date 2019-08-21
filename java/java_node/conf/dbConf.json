@@ -1,0 +1,8 @@
+{
+  "DB" :
+  {
+    "URL" : "jdbc:mysql://175.207.29.204/block?serverTimezone=UTC",
+    "USER" : "root",
+    "PASSWORD" : "rroot+!@#$"
+  }
+}

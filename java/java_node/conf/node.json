@@ -1,0 +1,118 @@
+{
+  "NODE" :
+  {
+    "TYPE" : "RN",
+    "RULE" : "NN",
+    "P2P" :
+    {
+      "CLUSTER" :
+      {
+        "ROOT" : "0x2502087F00350000",
+        "ADDR" : "0x0000",
+        "MAX" : 21
+      }
+    },
+
+    "SOCK" :
+    {
+      "NUM" :
+      {
+        "UDP_SVR" : 1,
+        "UDP_CLI" : 2,
+        "TCP_SVR" : 2,
+        "TCP_CLI" : 2
+      },
+      "UDP_SVR_1" :
+      {
+        "MREQ_IP" : "192.168.10.7",
+        "IP" : "0.0.0.0",
+        "PORT" : 17979
+      },
+      "UDP_CLI_1" :
+      {
+        "PEER" :
+        {
+          "IP" : "192.168.10.7",
+          "PORT" : 17979
+        },
+        "LOCAL" :
+        {
+          "IP" : "127.0.0.1",
+          "PORT" : 27942
+        }
+      },
+      "UDP_CLI_2" :
+      {
+        "PEER" :
+        {
+          "IP" : "192.168.10.7",
+          "PORT" : 17979
+        },
+
+        "LOCAL" :
+        {
+          "IP" : "127.0.0.1",
+          "PORT" : 27979
+        }
+      },
+      
+      "TCP_SVR_1" :
+      {
+        "IP" : "192.168.10.7",
+        "PORT" : 18279
+      },
+
+      "TCP_SVR_2" :
+      {
+        "IP" : "192.168.10.7",
+        "PORT" : 11879
+      },
+
+      "TCP_CLI_1" :
+      {
+        "AUTO_JOIN" : 0,
+
+        "P2P_JOIN" : 1,
+
+        "PEER" :
+        {
+          "IP" : "192.168.10.7",
+          "PORT" : 11879
+        },
+
+        "LOCAL" : {
+          "IP" : "192.168.10.7",
+          "PORT" : 21879
+        }
+      },
+
+      "TCP_CLI_2" :
+      {
+        "AUTO_JOIN" : 1,
+
+        "P2P_JOIN" : 0,
+
+        "PEER" :
+        {
+          "IP" : "192.168.10.7",
+          "PORT" : 18279
+        },
+
+        "LOCAL" :
+        {
+          "IP" : "127.0.10.7",
+          "PORT" : 28279
+        }
+      }
+    },
+    "CONS" :
+    {
+      "PATH" :
+      {
+        "KEY" : "key/",
+        "MY_PRIKEY" : "key/me/privkey.pem",
+        "MY_PUBKEY" : "key/me/pubkey.pem"
+      }
+    }
+  }
+}
